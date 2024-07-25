@@ -4,6 +4,7 @@ import realestate from "../../Assets/Projects/realestate.png";
 import s1 from "../../Assets/Projects/s1.jpg";
 import s2 from "../../Assets/Projects/s2.jpg";
 import S3 from "../../Assets/Projects/S3.png";
+import s4 from "../../Assets/Projects/s4.png";
 import snake from "../../Assets/Projects/snake.png";
 import todo from "../../Assets/Projects/todo.png";
 
@@ -139,6 +140,28 @@ services"
 
               
               ghLink="https://github.com/verma3shubham/Automatic_Toll_Gate/tree/main"
+
+               
+            />
+
+           
+            
+          </Col>
+
+
+                <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={s4}
+              isBlog={false}
+              title="PORTFOLIO"
+
+              
+              description="Developed a responsive PORTFOLIO application using ReactJS"
+
+              
+              ghLink="https://github.com/verma3shubham/Portfolio"
+              demoLink="https://portfolioshubham-psi.vercel.app/"         
+
 
                
             />
